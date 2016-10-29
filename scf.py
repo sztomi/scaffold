@@ -34,7 +34,7 @@ class TF(object):
 
 def apply_template(filename, **kwargs):
     script_path = os.path.dirname(os.path.realpath(__file__))
-    template_name = os.path.join(script_path, 'templates', os.path.basename(filename))
+    template_name = os.path.join(script_path, 'templates', filename)
     if os.path.exists(template_name):
         with open(template_name) as t:
             template = t.read()
