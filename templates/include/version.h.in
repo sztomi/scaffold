@@ -1,0 +1,8 @@
+#ifndef {project_id}_VERSION_H
+#define {project_id}_VERSION_H
+
+#define {project_id}_VERSION_MAJOR @{project_id}_VERSION_MAJOR@
+#define {project_id}_VERSION_MINOR @{project_id}_VERSION_MINOR@
+#define {project_id}_VERSION_PATCH @{project_id}_VERSION_PATCH@
+
+#endif
